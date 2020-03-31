@@ -1,0 +1,62 @@
+	body {
+		background-image: url(../css/cover.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		font-family: Helvetica, Tahoma;
+		}
+
+	.hello {
+		padding: 5px;
+		/*brings the div to the center of the screen horizontally and vertically*/
+		position: fixed;
+		top: 50%;
+		left: 51%;
+		right: 14%;
+		transform: translate(-50%, -50%);
+		/*end code for centering*/
+		}
+
+
+	h1, .same {
+		background-color: #FBBBB9; /* Cherry Blossom Pink */
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		/*text-decoration: none;
+		display: inline-block;*/
+		}
+
+	a:hover {
+		color: white;
+		border: 1px red solid;
+		}
+
+	a:link {
+		text-decoration: none;
+		color:#690502; /*Maroon*/
+		}
+
+	a:visited{
+		text-decoration: none;
+		color:#690502; /*Maroon*/				
+		}
+
+	@media (min-width: 600px){
+  	    .hello{
+  	    	color: black;
+  	    }
+  	    h1{
+  	    	font-size: 100%;
+  	    }
+
+  	}
+
+	@media (min-width: 1000px){
+  	    .hello{
+  	    	background-color: rgba(255,255,255,.3);
+  	    	color: black;
+  	    }
+  	}
